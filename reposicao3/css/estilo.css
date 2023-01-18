@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    background-image: url(3.jpg);
+  
+}
+
+#total{
+    width: 980px;
+    height: auto;
+    margin: auto;
+}
+#topo{
+    width: 980px;
+    height: 37px;
+    float: left;
+    background-image:url(../img/topo.png);
+    border-bottom: 3px solid #BBA6E7;
+    position: absolute;
+}
+#logo{
+    width: 144px;
+    height: 182px;
+    float: left;
+}
+#menu{
+    width: auto;
+    height: auto;
+    float: right;
+
+}
+#menu a{
+    color: azure;
+    text-decoration: none;
+    display: inline-block;
+    height: 27px;
+    padding: 10px 20px 0 20px;
+}
+#menu a:hover{
+    background-color: rgb(201, 174, 228);
+}
+#menu a:active{
+    background-color: rgb(24, 76, 47);
+}
